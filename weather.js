@@ -7,8 +7,7 @@ updateSearch = () => {
     searched.forEach(item => $('#searchHistory').append(`<button class='btn' 
     style='border-width:1px; border-color:black; margin:auto; width:100%'>${item}</button>`))
 }
-
-
+updateSearch()
 handleSearch = (val) => {
     $.ajax({
         method: "GET",
@@ -20,17 +19,17 @@ handleSearch = (val) => {
         $('.col-8').prepend('<div class="row"><h3>5 Day Forecast:</h3></div>')
         data.list.forEach((datum, i) => {
             (!((i + 4) % 8)) ?
-            $('#results').append(`<div class="card col-2" style="width: 8rem;">
+                $('#results').append(`<div class="card col-2" style="width: 8rem;">
         <img class="card-img-top" src="..." alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-      </div>`): ''
+      </div>`)
+                : ''
         })
     }).catch(err => console.log(err))
-
 }
 $('.btn').on('click', function () {
     console.log($(this).text())
@@ -40,5 +39,6 @@ $('.btn').on('click', function () {
     } else {
         handleSearch($(this).text())
     }
+
 
 })
