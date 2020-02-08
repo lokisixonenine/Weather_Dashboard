@@ -1,19 +1,72 @@
 
-header {
-    font-family: 'Roboto', sans-serif;
-}
-.row {
-    padding: 25px;
-    margin: 0px 15px 0px 15px;
+
+#search-section {
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
 }
 
-.col-2 {
-    color: white;
-    height: 120px;
-    background-color: #42b3f5;
-    margin-right: 15px;
-    margin-top: 0px;
-    border-radius: 5px;
+
+#forecast-section {
+    background-color: rgb(255, 254, 254);
+}
+
+#button-search {
+    background-color: rgb(57, 201, 211);
+}
+
+#current-weather {
+    background-color: rgb(255, 254, 254);
+    height: auto;
+    width: auto;
     padding: 10px;
 }
 
+#current-weather-input {
+    height: 300px;
+    width: auto;
+    color: black;
+}
+
+.day-cont {
+    background-color: rgb(57, 201, 211);
+    border-radius: 1em;
+    height: 230px;
+    width: 180px;
+    margin: 15px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+.card-title {
+    padding: 10px;
+}
+
+#current-weather-card {
+    height: auto;
+    width: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+li {
+    background-color: white;
+    border: .1px solid gray;
+    width: 90%;
+    height: 50px;
+    padding: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+.date-five-style {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dayZ {
+    background-color: lightskyblue;
+}
