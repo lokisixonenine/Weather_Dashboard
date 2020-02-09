@@ -169,10 +169,5 @@ $(document).ready(function () {
             $('#UV').text(response.value);
 
         });
-
     }
-
-    fiveDay();
-    renderUV();
-
 });

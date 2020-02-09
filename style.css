@@ -1,11 +1,4 @@
 
-
-#search-section {
-    background-color: rgb(245, 245, 245);
-    padding: 30px;
-}
-
-
 #forecast-section {
     background-color: rgb(255, 254, 254);
 }
@@ -21,33 +14,6 @@
     padding: 10px;
 }
 
-#current-weather-input {
-    height: 300px;
-    width: auto;
-    color: black;
-}
-
-.day-cont {
-    background-color: rgb(57, 201, 211);
-    border-radius: 1em;
-    height: 230px;
-    width: 180px;
-    margin: 15px;
-    padding: 10px;
-    font-size: 18px;
-
-}
-
-.card-title {
-    padding: 10px;
-}
-
-#current-weather-card {
-    height: auto;
-    width: auto;
-}
-
-
 ul {
     list-style-type: none;
     margin-left: -40px;
@@ -57,14 +23,9 @@ li {
     background-color: white;
     border: .1px solid gray;
     width: 90%;
-    height: 50px;
+    height: auto;
     padding: 10px 0 0 10px;
     cursor: pointer;
-}
-
-.date-five-style {
-    font-size: 20px;
-    font-weight: bold;
 }
 
 .dayZ {
